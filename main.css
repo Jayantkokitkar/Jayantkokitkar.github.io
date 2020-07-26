@@ -1,0 +1,239 @@
+.icon-size{
+    height: 40px;
+    width: 40px;
+}
+.nav-bag{
+  background-color: #05386B;
+    
+}
+.nav-sty{
+    
+    margin-left: 60%;
+    background-color:  #05386B;
+   
+}
+.sectionmedium{
+    background: #379683;
+    
+    margin: 1rem;
+}
+.body{
+    background-color: white;
+    
+
+}
+.jumbotron{
+    background-color: white;
+    padding: 0rem 0rem;
+    
+    
+}
+@-webkit-keyframes Font {
+    0% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
+    20% {color: #379683;text-shadow:0.2em 0em 0.5em #379683;}
+    40% {color: #5CDB95;text-shadow:0.2em 0em 0.5em #5CDB95;}
+    60% {color: #8EE4AF;text-shadow:0.2em 0em 0.5em #8EE4AF;}
+    80% {color: #8EE4AF;text-shadow:0.2em 0em 0.5em #8EE4AF;}
+    100% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
+}
+
+.display-4{
+    display: block;
+    margin: auto;
+    -webkit-animation:Font 10s infinite alternate;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+    
+    color: #05386B;
+}
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+   
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+    transform: rotate(30deg);
+    border-radius: 25%;
+    transition-delay: 0.5;
+}
+.card{
+    background: #0000;
+    color: aliceblue;
+    
+     
+    border-color: lightgreen;
+}
+.card:hover{
+    
+text-shadow:0em 0em 0.5em yellow;
+   box-shadow: 0em 0em 1.5em black;
+}
+
+.card-title{
+    text-align: center;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook:hover{
+   color: #3B5998;
+  background: white; 
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-twitter:hover{
+    background: white;
+    color: #55ACEE;
+    
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-google:hover {
+  color: #dd4b39;
+  background: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-linkedin:hover {
+  color: #007bb5;
+  background: white;
+}
+.social-medi{
+   
+   
+}
+.footer{
+    margin-top: 2rem;
+    background-color: #EDF5E1;
+}
+.rounded{
+    height: 200px;
+    width: 200px;
+}
+.foot-head{
+text-align: center;
+}
+.soci{
+   text-align: center; 
+}
+.crou-img{
+    height: 400px;
+    image-resolution: from-image;
+    width: 100%;
+   
+    
+}
+section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+    
+}
+.guid{
+    margin: 2rem 2rem 2rem 0;
+    max-width: 50%;
+}
+section .guid h2{
+    font-family: consolas;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 3em;
+    
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(0);
+}
+section .guid h2[data-scroll="in"]{
+   transform: scaleX(1); 
+}
+section   .guid h2:before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #05386B;
+    transform-origin: right;
+    transition: 0.5s;
+}
+section .guid h2[data-scroll="in"]:before{
+   transform: scaleX(0);
+    transition-delay: 0.5s;
+}
+section .guid h3{
+    font-family: consolas;
+     position: relative;
+    margin: 5px;
+    padding: 0;
+    display: inline-block;
+    font-size: 2em;
+    
+    transition: 0.5s;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+section   .guid h3:before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #8EE4AF;
+    transform-origin: left;
+    transition: 0.5s;
+}
+section .guid h3[data-scroll="in"]:before{
+   transform: scaleX(0);
+    transition-delay: 0.5s;
+}
+
+.box{
+    background-color: cadetblue;
+}
+.demoimg{
+    background-image: url("images/perfectbg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 10rem;
+}
+
+
+
+
