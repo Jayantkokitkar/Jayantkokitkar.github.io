@@ -66,6 +66,22 @@
     border-radius: 25%;
     transition-delay: 0.5;
 }
+.demoimg{
+    background-image: url("images/perfectbg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 10rem;
+}
 .card{
     background: #0000;
     color: aliceblue;
@@ -73,6 +89,7 @@
      
     border-color: lightgreen;
 }
+
 .card:hover{
     
 text-shadow:0em 0em 0.5em yellow;
@@ -213,27 +230,41 @@ section .guid h3[data-scroll="in"]:before{
    transform: scaleX(0);
     transition-delay: 0.5s;
 }
+section .guid .card{
+    background-color: white;
+    color: black;
+    display: block;
+    margin: auto;
+    
+}
+section .guid .cardhover{
+    background-color: white;
+    color: black;
+    text-shadow:0em 0em 0em white;
+    box-shadow: 0em 0em 1.5em black;
+}
 
 .box{
     background-color: cadetblue;
 }
-.demoimg{
-    background-image: url("images/perfectbg.jpg");
 
-  /* Set a specific height */
-  min-height: 500px; 
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-    padding-top: 10rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 10rem;
+.guidbtn{
+    padding: 2rem;
+display: grid;
+    align-items: center;
 }
-
+.guidcard{
+    background: #0000;
+    color: black;
+    
+}
+.guidcard:hover{
+    text-shadow: none;
+}
+.card-header{
+    background: #0000;
+}
 
 
 

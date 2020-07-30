@@ -1,0 +1,19 @@
+{
+  "name": "bestcropindia",
+  "version": "1.0.0",
+  "description": "best suitable crop",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayantkokitkar/bestcropindia.git"
+  },
+  "author": "jayant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayantkokitkar/bestcropindia/issues"
+  },
+  "homepage": "https://github.com/Jayantkokitkar/bestcropindia#readme"
+}
