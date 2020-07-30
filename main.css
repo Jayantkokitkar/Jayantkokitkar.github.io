@@ -30,17 +30,17 @@
 }
 @-webkit-keyframes Font {
     0% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
-    20% {color: #379683;text-shadow:0.2em 0em 0.5em #379683;}
-    40% {color: #5CDB95;text-shadow:0.2em 0em 0.5em #5CDB95;}
-    60% {color: #8EE4AF;text-shadow:0.2em 0em 0.5em #8EE4AF;}
-    80% {color: #8EE4AF;text-shadow:0.2em 0em 0.5em #8EE4AF;}
+    20% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
+    40% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
+    60% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
+    80% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
     100% {color: #05386B;text-shadow:0.2em 0em 0.5em #05386B;}
 }
 
 .display-4{
     display: block;
     margin: auto;
-    -webkit-animation:Font 10s infinite alternate;
+   -webkit-animation:Font 10s infinite alternate;
     text-align: center;
     font-size: 4rem;
     font-weight: 500;
