@@ -170,8 +170,24 @@ section{
     
 }
 .guid{
-    margin: 2rem 2rem 2rem 0;
-    max-width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+    display: flex;
+    align-content: flex-end;
+    
+      
+}
+.guid:nth-child(1){
+    display: block;
+    text-decoration-color: black;
+    align-content: center;
+    
+}
+
+.guid:nth-child(1) .btn-link {
+    color: black;
+    font-family: 'Varela Round', sans-serif;
 }
 section .guid h2{
     font-family: consolas;
