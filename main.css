@@ -281,6 +281,9 @@ display: grid;
 .card-header{
     background: #0000;
 }
+.btn-link{
+    color: black;
+}
 
 
 
