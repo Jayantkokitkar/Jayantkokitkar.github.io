@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     
+     <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
 
 </head>
 
-<body style="background-color:white;">
+<body style="background-color:floralwhite;">
     <div class="container-fluid">
        <!navbar>
         <nav class="navbar navbar-expand-lg  navbar-dark nav-bag ">
@@ -62,12 +62,21 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/crou2.jpg" class="d-block  crou-img" alt="...">
+        <div class="carousel-caption"><h3 class="cssanimation typing">Changing Harvesting </h3>
+        <p>Learn more</p></div>
+        <a href="https://medium.com/@gaadikheti/modern-harvesting-machines-in-india-price-specifications-and-features-e9b43a633aa7#:~:text=Modern%20technology%20involves%20the%20use,plows%2C%20sprayers%2C%20and%20planters.&text=Grain%20Harvesting%20Machine%20%E2%80%94%20With%20this,and%20fruit%20seeds%20are%20harvested." class="stretched-link"></a>
     </div>
     <div class="carousel-item">
       <img src="images/fawarni.jpg" class="d-block  crou-img" alt="...">
+      <div class="carousel-caption"><h3 class="cssanimation typing">Modern Farming </h3>
+        <p>Learn more</p></div>
+        <a href="https://industrytoday.com/modern-farming/" class="stretched-link"></a>
     </div>
     <div class="carousel-item">
       <img src="images/pahani.jpg" class="d-block  crou-img" alt="...">
+      <div class="carousel-caption"><h3 class="cssanimation typing">Fertilization </h3>
+        <p>Know more</p></div>
+        <a href="https://www.nature.com/articles/s41598-017-01412-0" class="stretched-link"></a>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -99,7 +108,7 @@
         <div class="guid">     
   
           <div id="accordion">
-  <div class="card guidcard">
+  <div class="card guidcard cssanimation moveFromTop ">
     <div class="card-header " style="background-color: red" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -126,7 +135,7 @@ Your soil falls under pH 6 you will need to add an alkaline material to adjust i
       </div>
     </div>
   </div>
-  <div class="card guidcard">
+  <div class="card guidcard cssanimation fadeInLeft ">
     <div class="card-header" style="background-color: orange" id="headingTwo">
            
 
@@ -150,11 +159,11 @@ Your soil falls under pH 6 you will need to add an alkaline material to adjust i
       </div>
     </div>
   </div>
-  <div class="card guidcard">
+  <div class="card guidcard cssanimation fadeInLeft" >
     <div class="card-header" style="background-color: yellow" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          soil pH ranging from 4-5.5
+          soil pH ranging from 6.6-6.8
         </button>
       </h5>
     </div>
@@ -176,11 +185,11 @@ This soil can have capacity to dissolve Nitrogen,Phosphurus and Pottassiom
       </div>
     </div>
   </div>
-  <div class="card guidcard">
+  <div class="card guidcard cssanimation fadeInRight" >
       <div class="card-header" style="background-color: yellowgreen" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-          soil pH ranging from 4-5.5
+          soil pH ranging from 6.8-7
         </button>
       </h5>
     </div>
@@ -202,7 +211,7 @@ This soil can have capacity to dissolve Nitrogen,Phosphurus and Pottassiom
       </div>
     </div>
   </div>
-  <div class="card guidcard">
+  <div class="card guidcard cssanimation fadeInBottom ">
      <div class="card-header" style="background-color: darkgreen" id="headingThree">
       <h5 class="mb-0">
         <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
@@ -336,11 +345,21 @@ var slideleft={
             origin: 'right',
             opacity:null
         };
-
+var slideJ={
+    distance:'50%',
+    origin:'right',
+    opacity:null
+    
+};
  
 		ScrollReveal().reveal('.c2', slideUp)
 		ScrollReveal().reveal('.c1', slideright)
 		ScrollReveal().reveal('.c3', slideleft)
+		ScrollReveal().reveal('.J', slideJ)
+		ScrollReveal().reveal('.A', slideJ)
+		ScrollReveal().reveal('.Y', slideJ)
+		
+
         
         
         

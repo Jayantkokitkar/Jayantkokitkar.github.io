@@ -157,6 +157,8 @@ text-align: center;
     height: 400px;
     image-resolution: from-image;
     width: 100%;
+    filter: brightness(60%);
+    
    
     
 }
@@ -280,10 +282,32 @@ display: grid;
 }
 .card-header{
     background: #0000;
+   
+    
+   
+     
 }
 .btn-link{
     color: black;
 }
-
-
+.jkstyle{
+    filter: brightness(80%);
+}
+.typing {
+    display: block;
+    margin: auto;
+   font-family: 'Varela Round', sans-serif;
+    
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    40% { border-color: transparent }
+}
 
