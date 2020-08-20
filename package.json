@@ -4,7 +4,7 @@
   "description": "best suitable crop",
   "main": "index.html",
   "scripts": {
-    "test": "npm start"
+    "test": "npm run build"
   },
   "repository": {
     "type": "git",
