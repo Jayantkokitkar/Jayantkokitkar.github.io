@@ -1,15 +1,17 @@
 .icon-size{
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
 }
 .nav-bag{
-  background-color: #05386B;
+  background-color: floralwhite;
     
 }
 .nav-sty{
     
     margin-left: 60%;
-    background-color:  #05386B;
+    background-color:  floralwhite;
+    color: grey;
+    
    
 }
 .sectionmedium{
@@ -81,6 +83,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 10rem;
+    border-radius: 0.5%;
 }
 .card{
     background: #0000;
@@ -141,11 +144,16 @@ text-shadow:0em 0em 0.5em yellow;
 }
 .footer{
     margin-top: 2rem;
-    background-color: #EDF5E1;
+    background-color: #212529;
+    font-family: 'Varela Round', sans-serif;
+    color: #ebe7e7;
+    border-radius: 0.5%;
 }
 .rounded{
     height: 200px;
     width: 200px;
+    background-color: #212529;
+   
 }
 .foot-head{
 text-align: center;
@@ -177,6 +185,7 @@ section{
     
     display: flex;
     align-content: flex-end;
+    font-family: 'Varela Round' , sans-serif;
     
       
 }
@@ -188,8 +197,9 @@ section{
 }
 
 .guid:nth-child(1) .btn-link {
-    color: black;
+    color: grey;
     font-family: 'Varela Round', sans-serif;
+    
 }
 section .guid h2{
     font-family: consolas;
@@ -250,7 +260,7 @@ section .guid h3[data-scroll="in"]:before{
 }
 section .guid .card{
     background-color: white;
-    color: black;
+    color: #757474;
     display: block;
     margin: auto;
     
